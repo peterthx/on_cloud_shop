@@ -1,0 +1,20 @@
+{
+  "name": "on_cloud_shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm exec playwright test",
+    "test:headed":"pnpm exec playwright test --headed",
+    "test:ui":"pnpm exec playwright test --ui",
+    "test:report":"pnpm exec playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.0"
+  }
+}
