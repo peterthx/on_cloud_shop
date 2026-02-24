@@ -18,7 +18,7 @@ export class GetUrlPage {
   }
 
   async navigate() {
-    await this.page.goto("https://www.on.com/en-th/shop/womens/shoes");
+    await this.page.goto("/shop/womens/shoes");
     await this.page.waitForLoadState("domcontentloaded");
   }
 }
